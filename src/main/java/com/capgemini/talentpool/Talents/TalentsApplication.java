@@ -1,0 +1,13 @@
+package com.capgemini.talentpool.Talents;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TalentsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TalentsApplication.class, args);
+	}
+
+}
