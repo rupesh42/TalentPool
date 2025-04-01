@@ -1,4 +1,4 @@
-package com.capgemini.talentpool.Talents;
+package com.capgemini.talent.skill;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
