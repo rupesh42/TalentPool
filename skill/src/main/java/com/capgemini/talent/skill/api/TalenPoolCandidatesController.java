@@ -65,4 +65,9 @@ public class TalenPoolCandidatesController {
 		skillService.uploadExcel(file);
 		return ResponseEntity.status(HttpStatus.ACCEPTED).body("File uploaded successfully");
 	}
+
+	@GetMapping("/test")
+	public String test() {
+		return "Skill service is running";
+	}
 }
